@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    padding-top: 80px;
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 6px 6px hsl(0, 0%, 7%);
+    width: 300px;
+    padding-top: 15px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    min-width: 20rem;
+    max-width: 30rem;
+}
+
+.image1 {
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 289px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.Learning-btn {
+    background-color: hsl(47deg, 88%, 63%);
+    color: black;
+    margin-bottom: 15px;
+    margin-right: 201px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+span {
+    padding-right: 129px;
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding-right: 34px;
+    font-weight: 800;
+}
+
+h1:hover {
+    cursor: pointer;
+    color: #f4ca49;
+}
+
+.description {
+    color: rgb(156, 154, 154);
+    margin-bottom: 12px;
+    display: block;
+    text-align: start;
+    padding-left: 27px;
+    font-size: 14px;
+}
+
+.author-image {
+    display: inline-flex;
+    gap: 13px;
+    padding-right: 166px;
+}
+
+.image2 {
+    width: 27px;
+    height: 27px;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 11px;
+}
+
